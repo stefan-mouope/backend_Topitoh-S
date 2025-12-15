@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cors());
 app.use(helmet());
 
-// Routes
+// Routess
 app.use('/api/accounts', accountRoutes);
 app.use('/api/patients', patientRoutes);
 app.use('/api/consultations', consultationRoutes);
